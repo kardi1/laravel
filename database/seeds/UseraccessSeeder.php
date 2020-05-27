@@ -15,7 +15,7 @@ class UseraccessSeeder extends Seeder
     public function run()
     {
 
-        for ($i = 0; $i < 3810; $i++) {
+        for ($i = 0; $i < 5000; $i++) {
             $date = Carbon::create(2019, 3, 26, 0, 0, 0);
             DB::table('usersaccesses')->insert([
                 'last_login' => $date->addWeeks(rand(1, 52))->format('Y-m-d H:i:s'),
