@@ -12,6 +12,8 @@
     
     npm run dev
 
+    Criar uma base chamada loginlogdb e um usuário chamado admin com todos os privilégios no banco de dados 
+
     php artisan migrate
     
     php artisan db:seed --class=UserSeeder
